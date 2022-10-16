@@ -1,6 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <PackageReference Include="KubernetesClient" Version="9.0.28" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Glance.Application\Glance.Application.csproj" />
   </ItemGroup>
 
